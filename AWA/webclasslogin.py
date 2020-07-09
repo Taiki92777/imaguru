@@ -11,9 +11,9 @@ driver.get('https://lib02.tmd.ac.jp/webclass/login.php')
 #%%
 # login
 ID=driver.find_element_by_id('username')
-ID.send_keys('gpat1981')
+ID.send_keys('Your ID')
 password=driver.find_element_by_id('password')
-password.send_keys('yuta1202')
+password.send_keys('your passwaorf')
 
 login_button=driver.find_element_by_id('LoginBtn')
 login_button.click()
